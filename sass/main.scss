@@ -1,1 +1,4 @@
-@import './base.scss/_base-slyles';
+@import './utils/variables';
+@import './base/base-styles';
+@import './base/container';
+@import './components.scss/header';
