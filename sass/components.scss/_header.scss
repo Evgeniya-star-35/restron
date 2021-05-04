@@ -1,3 +1,32 @@
-.navigation {
-    display: flex;
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation-list {
+  display: flex;
+}
+.navigation-item:not(:last-child) {
+  margin-right: 30px;
+}
+.navigation-link {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $primary-text-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.navigation-link--current {
+  color: $accent-color;
+  border: 1px solid $accent-color;
+}
+.navigation-link--secondary {
+  font-weight: 700;
+  color: $accent-color;
 }

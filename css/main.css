@@ -73,7 +73,40 @@ a:focus {
   width: 1110px;
 }
 
-.navigation {
+.container-header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.navigation-link {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.navigation-link:hover, .navigation-link:focus {
+  color: #D1A954;
+}
+
+.navigation-link--current {
+  color: #D1A954;
+  border: 1px solid #D1A954;
+}
+
+.navigation-link--secondary {
+  font-weight: 700;
+  color: #D1A954;
 }
 /*# sourceMappingURL=main.css.map */
