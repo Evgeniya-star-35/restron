@@ -1,0 +1,36 @@
+.reclama-list {
+  display: flex;
+  margin-right: -30px;
+}
+.reclama-item {
+  flex-basis: calc((100% - 3 * 30px) / 3);
+  margin-right: 30px;
+}
+.reclama-item {
+  position: relative;
+}
+// .reclama__app {
+//   position: absolute;
+//   bottom: 0;
+//   width: 580px;
+//   height: 166px;
+//   padding: 22px 15px;
+//   border: 1px solid rgba(255, 255, 255, 0.5);
+//   background-color: $accent-color;
+// }
+// .reclama__title {
+//   margin: 0;
+//   margin-bottom: 14px;
+//   font-size: 30px;
+//   line-height: 1.23;
+//   text-align: center;
+//   text-transform: uppercase;
+//   color: $bg-color;
+// }
+// .reclama__text {
+//   margin-bottom: 22px;
+//   font-size: 14px;
+//   line-height: 1.35;
+//   text-align: center;
+//   color: $bg-color;
+// }
